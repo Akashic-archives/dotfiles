@@ -99,6 +99,13 @@ alias upgrade='sudo apt upgrade' #'pacman No idea'
 alias install='sudo apt install' #'pacman Some other thing'
 alias purge='sudo apt purge' #'pacman Something'
 
+alias sshstart='sudo service ssh start'
+alias sshstop='sudo service ssh stop'
+alias sshstatus='sudo service ssh status'
+alias ssh='sudo service ssh'
+
+alias batty='watch -d -n 1 upower -i /org/freedesktop/UPower/devices/battery_BAT0'
+
 # navigation aliases (distrotube)
 
 alias ..='cd ..'
@@ -113,15 +120,15 @@ alias free='free -m'
 #alias allGitThings
 
 # yt-dlp
-alias yta-aac="yt-dlp --extract-audio --audio-format aac "
-alias yta-best="yt-dlp --extract-audio --audio-format best "
-alias yta-flac="yt-dlp --extract-audio --audio-format flac "
-alias yta-m4a="yt-dlp --extract-audio --audio-format m4a "
-alias yta-mp3="yt-dlp --extract-audio --audio-format mp3 "
-alias yta-opus="yt-dlp --extract-audio --audio-format opus "
-alias yta-vorbis="yt-dlp --extract-audio --audio-format vorbis "
-alias yta-wav="yt-dlp --extract-audio --audio-format wav "
-alias ytv-best="yt-dlp -f bestvideo+bestaudio "
+alias yta-aac='yt-dlp --extract-audio --audio-format aac'
+alias yta-best='yt-dlp --extract-audio --audio-format best'
+alias yta-flac='yt-dlp --extract-audio --audio-format flac'
+alias yta-m4a='yt-dlp --extract-audio --audio-format m4a'
+alias yta-mp3='yt-dlp --extract-audio --audio-format mp3'
+alias yta-opus='yt-dlp --extract-audio --audio-format opus'
+alias yta-vorbis='yt-dlp --extract-audio --audio-format vorbis'
+alias yta-wav='yt-dlp --extract-audio --audio-format wav'
+alias ytv-best='yt-dlp -f bestvideo+bestaudio'
 
 
 # Add an "alert" alias for long running commands.  Use like so:
