@@ -106,6 +106,8 @@ alias ssh='sudo service ssh'
 
 alias batty='watch -d -n 1 upower -i /org/freedesktop/UPower/devices/battery_BAT0'
 
+alias hystori='history'
+
 # navigation aliases (distrotube)
 
 alias ..='cd ..'
